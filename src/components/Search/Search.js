@@ -19,8 +19,7 @@ const Search = () => {
             <div className="m-5">
 
                 <div className="text-white">
-                    <p>252 stays Apr 13-17 3 guests</p>
-                    <h4>Stay in Cox’s Bazar</h4>
+                    <h4>Stay in Sajek</h4>
                     <h5>Total hotels: {hotels.length}</h5>
                 </div>
 
@@ -35,9 +34,7 @@ const Search = () => {
                                     <div class="col-md-8">
                                         <div class="card-body">
                                             <h5 class="card-title">{hotel.name}</h5>
-                                            <p class="card-text">{hotel.details}</p>
-                                            <p class="card-text">${hotel.price}/night</p>
-                                            <p class="card-text">4.5<img src={rating} alt="Rating" width="20px" /> {hotel.review}</p>
+                                            <p class="card-text">{hotel.details}</p>                                         
                                         </div>
                                     </div>
                                 </div>
@@ -47,11 +44,6 @@ const Search = () => {
                 }
 
             </div >
-
-            <div className="m-5">
-                <h1>Google Maps</h1>
-                <img src="https://www.google.com/maps/d/u/0/thumbnail?mid=1jzQ0F21u1PJI_8BqWOAaSkFLHSM" alt="" />
-            </div>
         </div >
     );
 };
